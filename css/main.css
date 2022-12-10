@@ -284,7 +284,7 @@ footer .copyright{
 }
 
 .hero-area h1{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif; 
   font-size: 2.25em;
   font-weight: 500;
   line-height: 1.2;
@@ -360,12 +360,14 @@ input[type=button] {
   text-align: center;
 }
 
-.reviews {
+.reviews  {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   background-color: #2a423a;
- }
+  }
+
+ 
 
 .reviews h2 {
   margin-bottom: 40px;
@@ -542,7 +544,7 @@ input[type=button] {
      /* General styles */
 
 .content-wrapper {
-    max-width: 640px;
+    max-width: 650px;
     margin: 100px 0;
 }
 
@@ -635,19 +637,19 @@ aside .content-wrapper .form {
 
 /* Reviews */
 
-.reviews article {
-    display: flex;
-    justify-content: space-between;
-  
-}
 .reviews h2 {
   width: 85%;
 }
-
-.reviews article figure,
-  .reviews article div {
-    width: 49%;
-  }
+.reviews article {
+  display: flex;
+  justify-content: space-between;
+  
+}
+  
+.reviews article figure, 
+.reviews article div {
+  width: 49%;
+}
 
 .reviews h3 {
   width: 75%;
@@ -757,67 +759,66 @@ footer .copyright {
   }
   .content-wrapper {
     max-width: 960px;
-}
+  }
 
-h2 {
+  h2 {
   font-size: 2.25em;
-}
+  }
 
-h3,
-h4 {
+  h3,
+  h4 {
     font-size: 1.875em;
-}
+  }
 
-p {
+  p {
     font-size: 1.125em;
     line-height: 1.333;
-}
+  }
 
 /* Hero */
-.hero-area h1 {
+  .hero-area h1 {
   font-size: 3.75em;
     width: 80%;
-}
+  }
 
 /* Aside */
-aside .content-wrapper {
+  aside .content-wrapper {
    justify-content:space-around;
-}
+  }
 
-aside .content-wrapper .form-description,
-aside .content-wrapper .form {
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
    width: 30%;
-}
+  }
 
-.form-description p {
+  .form-description p {
   font-size: 1.125em;
-}
+  }
 
 /* Features */
-.features h2 {
+  .features h2 {
    width: 90%; 
    
-}
+  }
 
 .features article {
    flex-basis: 33%;  
-}
+  }
 
 
 /* Reviews */ 
 .reviews h2 {
   padding-bottom: 50px;
-}
+  }
 
 .reviews article div {
    width: 42%;
 
-}
-
+  } 
 
 footer h4 {
   font-size: 1.875em;
-}
+  }
 
 /* ==========================================================================
 About Page
@@ -922,6 +923,6 @@ FAQ Page
 
   h2,
   h3 {
-    page-break-after: avoid;}
-
-  
+    page-break-after: avoid;
+   
+  }
